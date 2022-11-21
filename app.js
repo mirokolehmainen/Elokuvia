@@ -1,5 +1,5 @@
 //Tekee uuden xml pyynnön nappia painaessa
-document.getElementById('1').onclick = function LataaOmena() {
+document.getElementById('1').onclick = function Omena() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
@@ -16,7 +16,7 @@ document.getElementById('1').onclick = function LataaOmena() {
     xmlhttp.send();
 }
 
-document.getElementById('2').onclick= function LataaSello() {
+document.getElementById('2').onclick= function Sello() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
@@ -32,7 +32,7 @@ document.getElementById('2').onclick= function LataaSello() {
     xmlhttp.send();
 }
 
-document.getElementById('3').onclick = function LataaItis() {
+document.getElementById('3').onclick = function Itis() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
@@ -48,7 +48,7 @@ document.getElementById('3').onclick = function LataaItis() {
     xmlhttp.send();
 }
 
-document.getElementById('4').onclick =function LataaKinopalatsi() {
+document.getElementById('4').onclick =function Kinopalatsi() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
@@ -64,7 +64,7 @@ document.getElementById('4').onclick =function LataaKinopalatsi() {
     xmlhttp.send();
 }
 
-document.getElementById('5').onclick = function loadXMLMaxim() {
+document.getElementById('5').onclick = function Maxim() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
@@ -80,7 +80,7 @@ document.getElementById('5').onclick = function loadXMLMaxim() {
     xmlhttp.send();
 }
 
-document.getElementById('6').onclick = function loadXMLTennispalatsi() {
+document.getElementById('6').onclick = function Tennispalatsi() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
