@@ -25,7 +25,7 @@ document.getElementById('2').onclick= function LataaSello() {
     };
 
     xmlhttp.open(
-        'GET'
+        'GET',
         'https://www.finnkino.fi/xml/Schedule/?area=1038',
         true
     );
