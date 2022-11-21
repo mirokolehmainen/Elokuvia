@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 
 body{
     background-color: rgb(0, 0, 0);
@@ -36,5 +39,9 @@ h2{
     color: goldenrod;
 }
 
-
+h4 {
+    color: rgb(255, 255, 255);
+    padding-left: 40px;
+    padding-right: 30px;
+}
 

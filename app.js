@@ -25,7 +25,7 @@ document.getElementById('2').onclick= function LataaSello() {
     };
 
     xmlhttp.open(
-        'GET',
+        'GET'
         'https://www.finnkino.fi/xml/Schedule/?area=1038',
         true
     );
@@ -280,7 +280,7 @@ function myFunction(xml) {
     var i;
     var xmlDoc = xml.responseXML;
     var table =
-        '<tr><th><h3>Lajityyppi</h3></th><th><h3>Nimi</h3></th><th><h3>Tyyppi</h3></th><th><h3>Ikäraja</h3></tr>';
+        '<tr><th><h3>Lajityyppi</h3></th><th><h3>Nimi</h3></th><th><h4>Ikäraja</h4></th><th><h4>Tyyppi</h4><th><h4>Päivä ja aika</h4><th><h4>Paikka</h4><th><h4>Vuosi</h4></th></th></th></tr>';
     var x = xmlDoc.getElementsByTagName('Show');
     for (i = 0; i < x.length; i++) {
         const imageUrl = x[i].getElementsByTagName('Images')[0]
@@ -292,17 +292,25 @@ function myFunction(xml) {
             '</td><td>' +
             x[i].getElementsByTagName('Title')[0].childNodes[0]
                 .nodeValue +
-            x[i].getElementsByTagName('TheatreAuditorium')[0].childNodes[0]
-                .nodeValue + 
-            '</td><td>' +
+                '</td><td>' +
+             x[i].getElementsByTagName('Rating')[0].childNodes[0]
+                .nodeValue +
+                '</td><td>' +
             x[i].getElementsByTagName('PresentationMethod')[0].childNodes[0]
             .nodeValue + 
             '</td><td>' +
-            x[i].getElementsByTagName('Rating')[0].childNodes[0]
-                .nodeValue +
+            x[i].getElementsByTagName('dttmShowStart')[0].childNodes[0]
+            .nodeValue + 
+            '</td><td>' +
+            x[i].getElementsByTagName('TheatreAuditorium')[0].childNodes[0]
+                .nodeValue + 
+            '</td><td>' +
+            x[i].getElementsByTagName('ProductionYear')[0].childNodes[0]
+                .nodeValue + 
+                '</td><td>' +
             '</td><td><img src=' +
             imageUrl +
             '></td></tr>';
     }
-    document.getElementById('demo').innerHTML = table;
+    document.getElementById('Taulukko').innerHTML = table;
 }
