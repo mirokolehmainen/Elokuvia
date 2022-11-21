@@ -1,4 +1,4 @@
-//Tekee uuden pyynnön
+//Tekee uuden xml pyynnön nappia painaessa
 document.getElementById('1').onclick = function LataaOmena() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -6,7 +6,7 @@ document.getElementById('1').onclick = function LataaOmena() {
             myFunction(this);
         }
     };
-    //Avaa sivun
+    //Hakee tiedot
     xmlhttp.open(
         'GET',
         'https://www.finnkino.fi/xml/Schedule/?area=1039',
@@ -275,17 +275,22 @@ document.getElementById('17').onclick = function LuxeMylly() {
     );
     xmlhttp.send();
 }
-
+//Tehdään muuttujia ja taulukko xml tiedoille
 function myFunction(xml) {
     var i;
     var xmlDoc = xml.responseXML;
     var table =
         '<tr><th><h3>Lajityyppi</h3></th><th><h3>Nimi</h3></th><th><h4>Ikäraja</h4></th><th><h4>Tyyppi</h4><th><h4>Päivä ja aika</h4><th><h4>Paikka</h4><th><h4>Vuosi</h4></th></th></th></tr>';
+
+    //Käydään Show elementti läpi
     var x = xmlDoc.getElementsByTagName('Show');
     for (i = 0; i < x.length; i++) {
-        const imageUrl = x[i].getElementsByTagName('Images')[0]
+
+        //Haetaan kuvia ja lisätään ne muihin hakuihin
+        const Kuva = x[i].getElementsByTagName('Images')[0]
             .firstElementChild.textContent;
         table +=
+        //Lisätään tiedot taulukkoon
             '<tr><td>' +
             x[i].getElementsByTagName('Genres')[0].childNodes[0]
                 .nodeValue +
@@ -307,10 +312,11 @@ function myFunction(xml) {
             '</td><td>' +
             x[i].getElementsByTagName('ProductionYear')[0].childNodes[0]
                 .nodeValue + 
-                '</td><td>' +
-            '</td><td><img src=' +
-            imageUrl +
+                '</td>' +
+            '<td><img src=' +
+            Kuva +
             '></td></tr>';
     }
+    //Haetaan Talukko ja yhdistetään se tehtyyn taulokkoon
     document.getElementById('Taulukko').innerHTML = table;
 }

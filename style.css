@@ -17,6 +17,15 @@ h1 {
 button {
     color: black;
     background-color: goldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    width: 110px;
+    height: 33px;
+    border-color: goldenrod;
+}
+
+button:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 ul li {
     list-style: none;
@@ -33,15 +42,28 @@ td {
     align-items: center;
     padding-left: 60px;
     padding-right: 3px;
+    border: 15px;
+    border-color: goldenrod;
+    border-style:groove;
+   
 }
 
 h2{
     color: goldenrod;
+   
 }
 
 h4 {
     color: rgb(255, 255, 255);
     padding-left: 40px;
     padding-right: 30px;
+}
+
+
+
+table{
+    width: 95%;
+    height: 75%;
+   
 }
 
