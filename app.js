@@ -1,4 +1,4 @@
-//Tekee uuden xml pyynnön nappia painaessa ja kokeillaan, että kaikki toimii
+//Tekee uuden xml ja kokeillaan, että kaikki toimii
 document.getElementById('1').onclick = function Omena() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -14,7 +14,7 @@ document.getElementById('1').onclick = function Omena() {
     xmlhttp.send();
 }
 
-//Tekee uuden xml pyynnön nappia painaessa ja kokeillaan, että kaikki toimii
+//Tekee uuden xml ja kokeillaan, että kaikki toimii
 document.getElementById('2').onclick= function Sello() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -30,7 +30,7 @@ document.getElementById('2').onclick= function Sello() {
     xmlhttp.send();
 }
 
-//Tekee uuden xml pyynnön nappia painaessa ja kokeillaan, että kaikki toimii
+//Tekee uuden xml ja kokeillaan, että kaikki toimii
 document.getElementById('3').onclick = function Itis() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -47,7 +47,7 @@ document.getElementById('3').onclick = function Itis() {
     xmlhttp.send();
 }
 
-//Tekee uuden xml pyynnön nappia painaessa ja kokeillaan, että kaikki toimii
+//Tekee uuden xml pyynnön ja kokeillaan, että kaikki toimii
 document.getElementById('4').onclick =function Kinopalatsi() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -64,7 +64,7 @@ document.getElementById('4').onclick =function Kinopalatsi() {
     xmlhttp.send();
 }
 
-//Tekee uuden xml pyynnön nappia painaessa ja kokeillaan, että kaikki toimii
+//Tekee uuden xml pyynnön ja kokeillaan, että kaikki toimii
 document.getElementById('5').onclick = function Maxim() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -81,7 +81,7 @@ document.getElementById('5').onclick = function Maxim() {
     xmlhttp.send();
 }
 
-//Tekee uuden xml pyynnön nappia painaessa ja kokeillaan, että kaikki toimii
+//Tekee uuden xml pyynnön ja kokeillaan, että kaikki toimii
 document.getElementById('6').onclick = function Tennispalatsi() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -98,7 +98,7 @@ document.getElementById('6').onclick = function Tennispalatsi() {
     xmlhttp.send();
 }
 
-//Tekee uuden xml pyynnön nappia painaessa ja kokeillaan, että kaikki toimii
+//Tekee uuden xml pyynnön ja kokeillaan, että kaikki toimii
 document.getElementById('7').onclick = function Flamingo() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -115,7 +115,7 @@ document.getElementById('7').onclick = function Flamingo() {
     xmlhttp.send();
 }
 
-//Tekee uuden xml pyynnön nappia painaessa ja kokeillaan, että kaikki toimii
+//Tekee uuden xml pyynnön ja kokeillaan, että kaikki toimii
 document.getElementById('8').onclick = function Fantasia() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -132,7 +132,7 @@ document.getElementById('8').onclick = function Fantasia() {
     xmlhttp.send();
 }
 
-//Tekee uuden xml pyynnön nappia painaessa ja kokeillaan, että kaikki toimii
+//Tekee uuden xml pyynnön ja kokeillaan, että kaikki toimii
 document.getElementById('9').onclick = function Scala() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -149,7 +149,7 @@ document.getElementById('9').onclick = function Scala() {
     xmlhttp.send();
 }
 
-//Tekee uuden xml pyynnön nappia painaessa ja kokeillaan, että kaikki toimii
+//Tekee uuden xml pyynnön ja kokeillaan, että kaikki toimii
 document.getElementById('10').onclick = function Kuvapalatsi() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -166,7 +166,7 @@ document.getElementById('10').onclick = function Kuvapalatsi() {
     xmlhttp.send();
 }
 
-//Tekee uuden xml pyynnön nappia painaessa ja kokeillaan, että kaikki toimii
+//Tekee uuden xml pyynnön ja kokeillaan, että kaikki toimii
 document.getElementById('11').onclick = function Strand() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -183,7 +183,7 @@ document.getElementById('11').onclick = function Strand() {
     xmlhttp.send();
 }
 
-//Tekee uuden xml pyynnön nappia painaessa ja kokeillaan, että kaikki toimii
+//Tekee uuden xml pyynnön ja kokeillaan, että kaikki toimii
 document.getElementById('12').onclick = function Plaza() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -200,7 +200,7 @@ document.getElementById('12').onclick = function Plaza() {
     xmlhttp.send();
 }
 
-//Tekee uuden xml pyynnön nappia painaessa ja kokeillaan, että kaikki toimii
+//Tekee uuden xml pyynnön ja kokeillaan, että kaikki toimii
 document.getElementById('13').onclick = function Promenadi() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -217,7 +217,7 @@ document.getElementById('13').onclick = function Promenadi() {
     xmlhttp.send();
 }
 
-//Tekee uuden xml pyynnön nappia painaessa ja kokeillaan, että kaikki toimii
+//Tekee uuden xml pyynnön ja kokeillaan, että kaikki toimii
 document.getElementById('14').onclick = function Atlas() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -234,7 +234,7 @@ document.getElementById('14').onclick = function Atlas() {
     xmlhttp.send();
 }
 
-//Tekee uuden xml pyynnön nappia painaessa ja kokeillaan, että kaikki toimii
+//Tekee uuden xml pyynnön ja kokeillaan, että kaikki toimii
 document.getElementById('15').onclick = function Plevna() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -251,7 +251,7 @@ document.getElementById('15').onclick = function Plevna() {
     xmlhttp.send();
 }
 
-//Tekee uuden xml pyynnön nappia painaessa ja kokeillaan, että kaikki toimii
+//Tekee uuden xml pyynnön ja kokeillaan, että kaikki toimii
 document.getElementById('16').onclick = function TurkuKino() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -268,7 +268,7 @@ document.getElementById('16').onclick = function TurkuKino() {
     xmlhttp.send();
 }
 
-//Tekee uuden xml pyynnön nappia painaessa ja kokeillaan, että kaikki toimii
+//Tekee uuden xml pyynnön ja kokeillaan, että kaikki toimii
 document.getElementById('17').onclick = function LuxeMylly() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
