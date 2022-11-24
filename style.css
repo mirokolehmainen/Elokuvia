@@ -54,13 +54,12 @@ h4 {
 }
 
 select{
-padding-left: 65px;  
 color: goldenrod;  
 background-color: black;
 border-color: black;
 width: 200px;
 height: 30px;
-
+align-content: center;
 }
 
 #Valitse {
@@ -70,4 +69,3 @@ height: 30px;
   padding-bottom: 100px;
 
 }
-
