@@ -1,4 +1,4 @@
-//Tekee uuden xml ja kokeillaan, että kaikki toimii
+//Tekee uuden xml pyynnön ja kokeillaan, että kaikki toimii
 document.getElementById('1').onclick = function Omena() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -14,7 +14,7 @@ document.getElementById('1').onclick = function Omena() {
     xmlhttp.send();
 }
 
-//Tekee uuden xml ja kokeillaan, että kaikki toimii
+//Tekee uuden xml pyynnön ja kokeillaan, että kaikki toimii
 document.getElementById('2').onclick= function Sello() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -30,7 +30,7 @@ document.getElementById('2').onclick= function Sello() {
     xmlhttp.send();
 }
 
-//Tekee uuden xml ja kokeillaan, että kaikki toimii
+//Tekee uuden xml pyynnön ja kokeillaan, että kaikki toimii
 document.getElementById('3').onclick = function Itis() {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
